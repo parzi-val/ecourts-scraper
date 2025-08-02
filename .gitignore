@@ -1,3 +1,4 @@
 *db
 *response.html
 __pycache__/
+.env

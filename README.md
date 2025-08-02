@@ -8,7 +8,7 @@ A modern web interface for searching and retrieving case details from the ECourt
 - **Sequential Form Flow**: Step-by-step form with progress tracking
 - **Progress Sidebar**: Visual progress indicator showing current step and completion status
 - **Dynamic Loading**: Court complexes and case types are loaded dynamically
-- **CAPTCHA Support**: Built-in CAPTCHA image display and input
+- **AI-Powered CAPTCHA Auto-Solving**: Google Gemini API integration for automatic CAPTCHA solving with user verification
 - **Comprehensive Results**: Displays all case details including:
   - Case information (type, filing number, registration details)
   - Case status (hearing dates, decision date, disposal nature)
@@ -27,12 +27,23 @@ A modern web interface for searching and retrieving case details from the ECourt
    pip install -r requirements.txt
    ```
 
-2. **Run the Application**:
+2. **Setup CAPTCHA Auto-Solving (Optional)**:
+   ```bash
+   # Get a Google Gemini API key from https://makersuite.google.com/app/apikey
+   export GOOGLE_GEMINI_API_KEY='your-api-key-here'
+   
+   # Test the CAPTCHA solver
+   python test_captcha_solver.py
+   ```
+   
+   **Note**: The CAPTCHA auto-solving feature uses Google's Gemini Vision API to automatically read and solve CAPTCHA images. While this feature can significantly improve user experience, it may not be 100% accurate. Users are always encouraged to verify the auto-filled text before proceeding.
+
+3. **Run the Application**:
    ```bash
    python main.py
    ```
 
-3. **Access the Web Interface**:
+4. **Access the Web Interface**:
    Open your browser and navigate to `http://localhost:8000`
 
 ## Usage
@@ -54,6 +65,39 @@ A modern web interface for searching and retrieving case details from the ECourt
 7. **Solve CAPTCHA**: Enter the characters shown in the CAPTCHA image to verify you're a human user.
 
 8. **View Results**: Review the comprehensive case details that are displayed in organized sections.
+
+### CAPTCHA Auto-Solving with Google Gemini
+
+The application features advanced AI-powered CAPTCHA solving using Google's Gemini Vision API:
+
+#### How It Works
+- **Automatic Detection**: When a CAPTCHA is loaded, the system automatically sends the image to Gemini Vision API
+- **AI Analysis**: Gemini analyzes the CAPTCHA image and extracts the text characters
+- **Pre-filled Input**: The solved text is automatically pre-filled in the CAPTCHA input field
+- **User Verification**: Users can verify and edit the auto-filled text if needed
+- **Visual Indicators**: Auto-filled text is highlighted with a light blue background and special placeholder text
+- **Fallback Support**: If auto-solving fails, users can still manually enter the CAPTCHA
+
+#### Setup Instructions
+1. **Get API Key**: Visit [Google AI Studio](https://makersuite.google.com/app/apikey) to obtain a Gemini API key
+2. **Set Environment Variable**: 
+   ```bash
+   export GOOGLE_GEMINI_API_KEY='your-api-key-here'
+   ```
+3. **Test the Setup**: Run `python test_captcha_solver.py` to verify the configuration
+4. **User Interface**: The CAPTCHA step includes an info icon (ℹ️) that explains the auto-solving feature
+
+#### Technical Details
+- **Model Used**: Gemini 2.5 Flash for optimal speed and accuracy
+- **Image Processing**: CAPTCHA images are converted to base64 and sent to Gemini
+- **Text Extraction**: The API response is cleaned to extract only alphanumeric characters
+- **Error Handling**: Graceful fallback to manual input if auto-solving fails
+
+#### User Experience
+- **Seamless Integration**: Auto-solving works transparently in the background
+- **Clear Indicators**: Visual feedback shows when text has been auto-filled
+- **User Control**: Users can always edit or override the auto-filled text
+- **Accessibility**: Reduces the burden of manual CAPTCHA solving while maintaining security
 
 ### Features
 
@@ -85,7 +129,8 @@ The ECourts scraper operates through a multi-step process that mimics human inte
 ### 4. CAPTCHA Handling
 - **Image Retrieval**: Downloads CAPTCHA image from the court's CAPTCHA endpoint
 - **Base64 Encoding**: Converts image to base64 for frontend display
-- **User Input**: Captures user's CAPTCHA solution for verification
+- **AI Auto-Solving**: Sends image to Google Gemini Vision API for automatic text extraction
+- **User Input**: Captures user's CAPTCHA solution (auto-filled or manual) for verification
 
 ### 5. Case Search Process
 - **Search Request**: Sends case details (number, year, type) along with CAPTCHA solution
@@ -148,6 +193,8 @@ The application provides the following API endpoints:
 ├── main.py                 # FastAPI application
 ├── scraper.py             # ECourts scraper logic
 ├── database.py            # SQLite database logging
+├── captcha_solver.py      # AI-powered CAPTCHA solver
+├── test_captcha_solver.py # CAPTCHA solver test script
 ├── requirements.txt       # Python dependencies
 ├── ecourts_data.json     # State and district court data
 ├── queries.db            # SQLite database for query logs
@@ -186,6 +233,7 @@ The application includes comprehensive error handling for:
 ## Security Notes
 
 - CAPTCHA verification prevents automated abuse
+- AI-powered CAPTCHA solving maintains security while improving user experience
 - Session management ensures proper authentication
 - Input validation prevents injection attacks
 - HTTPS recommended for production deployment

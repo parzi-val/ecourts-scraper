@@ -284,6 +284,24 @@ class ECourtsApp {
                 const captchaImg = document.getElementById('captcha-image');
                 captchaImg.src = response.data.captcha_image;
                 captchaImg.style.display = 'block';
+
+                // Auto-fill CAPTCHA if available
+                if (response.data.auto_solved_text) {
+                    const captchaInput = document.getElementById('captcha-input');
+                    captchaInput.value = response.data.auto_solved_text;
+                    this.captchaValue = response.data.auto_solved_text;
+
+                    // Show a subtle indicator that it was auto-filled
+                    captchaInput.style.backgroundColor = '#f0f9ff';
+                    captchaInput.placeholder = 'Auto-filled (verify if correct)';
+
+                    // Reset styling after 3 seconds
+                    setTimeout(() => {
+                        captchaInput.style.backgroundColor = '';
+                        captchaInput.placeholder = 'Enter CAPTCHA';
+                    }, 3000);
+                }
+
                 refreshBtn.innerHTML = '<i class="fas fa-refresh mr-2"></i>Refresh CAPTCHA';
             } else {
                 alert('Failed to load CAPTCHA: ' + response.data.message);

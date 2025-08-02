@@ -9,6 +9,8 @@ import base64
 from io import BytesIO
 import json
 from database import QueryLogger
+from captcha_solver import CaptchaSolver
+import os
 
 app = FastAPI(title="ECourts Case Scraper")
 
@@ -23,6 +25,15 @@ scraper = None
 
 # Initialize query logger
 query_logger = QueryLogger()
+
+# Initialize CAPTCHA solver (optional)
+captcha_solver = CaptchaSolver()
+try:
+    captcha_solver = CaptchaSolver()
+    print("CAPTCHA solver initialized successfully")
+except Exception as e:
+    print(f"CAPTCHA solver initialization failed: {e}")
+    print("CAPTCHA auto-solving will be disabled")
 
 # Load ECourts data
 def load_ecourts_data():
@@ -124,8 +135,8 @@ async def get_case_types(request: Request):
 
 @app.get("/api/captcha")
 async def get_captcha():
-    """Get CAPTCHA image"""
-    global scraper
+    """Get CAPTCHA image with optional auto-solving"""
+    global scraper, captcha_solver
     if not scraper:
         raise HTTPException(status_code=400, detail="Scraper not initialized")
     
@@ -134,7 +145,23 @@ async def get_captcha():
         if captcha_image:
             # Convert to base64 for frontend display
             image_base64 = base64.b64encode(captcha_image).decode('utf-8')
-            return {"success": True, "captcha_image": f"data:image/png;base64,{image_base64}"}
+            
+            # Try to auto-solve if solver is available
+            auto_solved_text = None
+            if captcha_solver:
+                try:
+                    auto_solved_text, was_solved = captcha_solver.solve_captcha_with_fallback(captcha_image)
+                    if not was_solved:
+                        auto_solved_text = None
+                except Exception as e:
+                    print(f"Auto-solving failed: {e}")
+                    auto_solved_text = None
+            
+            return {
+                "success": True, 
+                "captcha_image": f"data:image/png;base64,{image_base64}",
+                "auto_solved_text": auto_solved_text
+            }
         else:
             return {"success": False, "message": "Failed to get CAPTCHA"}
     except Exception as e:
