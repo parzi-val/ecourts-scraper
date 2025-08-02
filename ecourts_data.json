@@ -1,0 +1,3123 @@
+{
+  "Andaman and Nicobar": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/andaman",
+    "districts": {
+      "Nicobar": {
+        "court_url": "https://districts.ecourts.gov.in/nicobar",
+        "state": "Andaman and Nicobar"
+      },
+      "North and Middle Andaman": {
+        "court_url": "https://districts.ecourts.gov.in/north-and-middle-andaman",
+        "state": "Andaman and Nicobar"
+      },
+      "South Andaman": {
+        "court_url": "https://southandaman.dcourts.gov.in/",
+        "state": "Andaman and Nicobar"
+      }
+    }
+  },
+  "Andhra Pradesh": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/ap",
+    "districts": {
+      "Anantpur": {
+        "court_url": "https://anantapur.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      },
+      "Chittoor": {
+        "court_url": "https://chittoor.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      },
+      "Kadapa": {
+        "court_url": "https://kadapa.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      },
+      "East Godavari": {
+        "court_url": "https://eastgodavari.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      },
+      "Guntur": {
+        "court_url": "https://guntur.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      },
+      "West Godavari": {
+        "court_url": "https://westgodavari.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      },
+      "Kurnool": {
+        "court_url": "https://kurnool.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      },
+      "Krishna": {
+        "court_url": "https://krishna.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      },
+      "Nellore": {
+        "court_url": "https://spsrnellore.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      },
+      "Prakasam": {
+        "court_url": "https://prakasam.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      },
+      "Srikakulam": {
+        "court_url": "https://srikakulam.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      },
+      "Vishakhapatnam": {
+        "court_url": "https://visakhapatnam.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      },
+      "Vizianagaram": {
+        "court_url": "https://vizianagaram.dcourts.gov.in/",
+        "state": "Andhra Pradesh"
+      }
+    }
+  },
+  "Arunachal Pradesh": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/arunachal",
+    "districts": {
+      "Anjaw": {
+        "court_url": "https://hawai.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Changlang": {
+        "court_url": "https://changlang.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Dibang Valley": {
+        "court_url": "https://anini.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "East Kameng": {
+        "court_url": "https://seppa.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "East Siang": {
+        "court_url": "https://pasighat.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Kurung Kumey": {
+        "court_url": "https://koloriang.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Lower Dibang Valley": {
+        "court_url": "https://roing.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Lower Subansiri": {
+        "court_url": "https://ziro.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Papum Pare": {
+        "court_url": "https://yupia.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Tawang": {
+        "court_url": "https://tawang.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Tirap": {
+        "court_url": "https://khonsa.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Upper Siang": {
+        "court_url": "https://yingkiong.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Upper Subansiri": {
+        "court_url": "https://daporijo.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "West Kameng": {
+        "court_url": "https://bomdila.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "West Siang": {
+        "court_url": "https://aalo.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Lohit": {
+        "court_url": "https://tezu.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "District and Sessions Court, Yupia": {
+        "court_url": "https://yupia.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Kra Daddi": {
+        "court_url": "https://palin.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "LepaRada": {
+        "court_url": "https://basar.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Siang": {
+        "court_url": "https://pangin.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Namsai": {
+        "court_url": "https://namsai.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      },
+      "Longding": {
+        "court_url": "https://longding.dcourts.gov.in/",
+        "state": "Arunachal Pradesh"
+      }
+    }
+  },
+  "Assam": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/assam",
+    "districts": {
+      "Bongaigaon": {
+        "court_url": "https://bongaigaon.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Darrang": {
+        "court_url": "https://darrang.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Dibrugarh": {
+        "court_url": "https://dibrugarh.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Karimganj": {
+        "court_url": "https://karimganj.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Udalguri": {
+        "court_url": "https://udalguri.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Tinsukia": {
+        "court_url": "https://tinsukia.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Baksa": {
+        "court_url": "https://baksa.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Barpeta": {
+        "court_url": "https://barpeta.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Cachar": {
+        "court_url": "https://cachar.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Chirang": {
+        "court_url": "https://chirang.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Dhemaji": {
+        "court_url": "https://dhemaji.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Dhubri": {
+        "court_url": "https://dhubri.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Goalpara": {
+        "court_url": "https://goalpara.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Golaghat": {
+        "court_url": "https://golaghat.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Hailakandi": {
+        "court_url": "https://hailakandi.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Jorhat": {
+        "court_url": "https://jorhat.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Kamrup": {
+        "court_url": "https://kamrup.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Kamrup Metropolitan": {
+        "court_url": "https://kamrupmetro.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Karbi Anglong": {
+        "court_url": "https://karbianglong.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Kokrajhar": {
+        "court_url": "https://kokrajhar.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Lakhimpur": {
+        "court_url": "https://lakhimpur.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Morigaon": {
+        "court_url": "https://morigaon.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Nagaon": {
+        "court_url": "https://nagaon.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Nalbari": {
+        "court_url": "https://nalbari.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Dima Hasao": {
+        "court_url": "https://dimahasao.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Sivasagar": {
+        "court_url": "https://sivasagar.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Sonitpur": {
+        "court_url": "https://sonitpur.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Charaideo": {
+        "court_url": "https://charaideo.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Hojai": {
+        "court_url": "https://hojai.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "West Karbi Anglong": {
+        "court_url": "https://westkarbianglong.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "South Salmara-Mankachar": {
+        "court_url": "https://southsalmara.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Bajali": {
+        "court_url": "https://bajali.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Biswanath": {
+        "court_url": "https://biswanath.dcourts.gov.in/",
+        "state": "Assam"
+      },
+      "Majuli": {
+        "court_url": "https://majuli.dcourts.gov.in/",
+        "state": "Assam"
+      }
+    }
+  },
+  "Bihar": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/bihar",
+    "districts": {
+      "Araria": {
+        "court_url": "https://araria.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Aurangabad": {
+        "court_url": "https://aurangabad.bih.dcourts.gov.in",
+        "state": "Bihar"
+      },
+      "Banka": {
+        "court_url": "https://banka.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Begusarai": {
+        "court_url": "https://begusarai.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Bhagalpur": {
+        "court_url": "https://bhagalpur.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Bhojpur": {
+        "court_url": "https://bhojpur.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Buxar": {
+        "court_url": "https://buxar.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Darbhanga": {
+        "court_url": "https://darbhanga.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "East Champaran": {
+        "court_url": "https://motihari.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Gaya": {
+        "court_url": "https://gaya.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Gopalganj": {
+        "court_url": "https://gopalganj.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Jamui": {
+        "court_url": "https://jamui.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Jehanabad": {
+        "court_url": "https://jehanabad.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Kaimur (Bhabua)": {
+        "court_url": "https://bhabua.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Katihar": {
+        "court_url": "https://katihar.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Khagaria": {
+        "court_url": "https://khagaria.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Kishanganj": {
+        "court_url": "https://kishanganj.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Lakhisarai": {
+        "court_url": "https://lakhisarai.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Madhepura": {
+        "court_url": "https://madhepura.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Madhubani": {
+        "court_url": "https://madhubani.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Munger": {
+        "court_url": "https://munger.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Muzaffarpur": {
+        "court_url": "https://muzaffarpur.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Nalanda": {
+        "court_url": "https://nalanda.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Nawada": {
+        "court_url": "https://nawada.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Patna": {
+        "court_url": "https://patna.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Purnea": {
+        "court_url": "https://purnea.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Rohtas": {
+        "court_url": "https://rohtas.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Saharsa": {
+        "court_url": "https://saharsa.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Samastipur": {
+        "court_url": "https://samastipur.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Saran": {
+        "court_url": "https://saran.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Sheikhpura": {
+        "court_url": "https://sheikhpura.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Sheohar": {
+        "court_url": "https://sheohar.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Sitamarhi": {
+        "court_url": "https://sitamarhi.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Siwan": {
+        "court_url": "https://siwan.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Supaul": {
+        "court_url": "https://supaul.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "Vaishali": {
+        "court_url": "https://vaishali.dcourts.gov.in/",
+        "state": "Bihar"
+      },
+      "West Champaran": {
+        "court_url": "https://bettiah.dcourts.gov.in/",
+        "state": "Bihar"
+      }
+    }
+  },
+  "Chandigarh": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/chandigarh_district_court",
+    "districts": {
+      "Chandigarh District Court": {
+        "court_url": "https://chandigarh.dcourts.gov.in/",
+        "state": "Chandigarh"
+      }
+    }
+  },
+  "Chhattisgarh": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/chhattisgarh",
+    "districts": {
+      "Bilaspur": {
+        "court_url": "https://bilaspur.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Bastar": {
+        "court_url": "https://bastar.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Bijapur": {
+        "court_url": "https://districts.ecourts.gov.in/bijapur",
+        "state": "Chhattisgarh"
+      },
+      "Dhamtari": {
+        "court_url": "https://dhamtari.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Durg": {
+        "court_url": "https://durg.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Janjgir-Champa": {
+        "court_url": "https://janjgir.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Jashpur": {
+        "court_url": "https://jashpur.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Kabirdham-Kawardha": {
+        "court_url": "https://kabirdham.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Korba": {
+        "court_url": "https://korba.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Korea": {
+        "court_url": "https://korea.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Mahasamund": {
+        "court_url": "https://mahasamund.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Norh Bastar-Kanker": {
+        "court_url": "https://kanker.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Raigarh": {
+        "court_url": "https://raigarh.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Raipur": {
+        "court_url": "https://raipur.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Rajnandgaon": {
+        "court_url": "https://rajnandgaon.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "South Bastar-Dantewada": {
+        "court_url": "https://dantewada.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Surguja": {
+        "court_url": "https://surguja.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Surajpur": {
+        "court_url": "https://surajpur.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Bemetara": {
+        "court_url": "https://bemetara.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Balod": {
+        "court_url": "https://balod.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Balodabazar": {
+        "court_url": "https://balodabazar.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Kondagaon": {
+        "court_url": "https://districts.ecourts.gov.in/kondagaon",
+        "state": "Chhattisgarh"
+      },
+      "Garibandh": {
+        "court_url": "https://districts.ecourts.gov.in/garibandh",
+        "state": "Chhattisgarh"
+      },
+      "Mungeli": {
+        "court_url": "https://mungeli.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      },
+      "Balrampur_CHG": {
+        "court_url": "https://balrampur.dcourts.gov.in/",
+        "state": "Chhattisgarh"
+      }
+    }
+  },
+  "Dadra and Nagar Haveli": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/dadra",
+    "districts": {
+      "Dadra and Nagar Haveli": {
+        "court_url": "https://silvassa.dcourts.gov.in/",
+        "state": "Dadra and Nagar Haveli"
+      }
+    }
+  },
+  "Daman and Diu": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/damandiu",
+    "districts": {
+      "Daman": {
+        "court_url": "https://daman.dcourts.gov.in/",
+        "state": "Daman and Diu"
+      },
+      "Diu": {
+        "court_url": "https://diu.dcourts.gov.in/",
+        "state": "Daman and Diu"
+      }
+    }
+  },
+  "Delhi": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/delhi",
+    "districts": {
+      "Central Delhi": {
+        "court_url": "https://centraldelhi.dcourts.gov.in/",
+        "state": "Delhi"
+      },
+      "East Delhi": {
+        "court_url": "https://eastdelhi.dcourts.gov.in/",
+        "state": "Delhi"
+      },
+      "New Delhi": {
+        "court_url": "https://newdelhi.dcourts.gov.in/",
+        "state": "Delhi"
+      },
+      "North East Delhi": {
+        "court_url": "https://northeast.dcourts.gov.in/",
+        "state": "Delhi"
+      },
+      "North West Delhi": {
+        "court_url": "https://rohini.dcourts.gov.in/",
+        "state": "Delhi"
+      },
+      "South Delhi": {
+        "court_url": "https://southdelhi.dcourts.gov.in/",
+        "state": "Delhi"
+      },
+      "South West Delhi": {
+        "court_url": "https://southwestdelhi.dcourts.gov.in/",
+        "state": "Delhi"
+      },
+      "West Delhi": {
+        "court_url": "https://westdelhi.dcourts.gov.in/",
+        "state": "Delhi"
+      },
+      "North Delhi": {
+        "court_url": "https://northdelhi.dcourts.gov.in/",
+        "state": "Delhi"
+      },
+      "South East Delhi": {
+        "court_url": "https://southeastdelhi.dcourts.gov.in/",
+        "state": "Delhi"
+      },
+      "Shahdara": {
+        "court_url": "https://shahdara.dcourts.gov.in/",
+        "state": "Delhi"
+      },
+      "Delhi Family Court": {
+        "court_url": "https://centraldelhi.dcourts.gov.in/",
+        "state": "Delhi"
+      },
+      "Delhi Mediation Centre": {
+        "court_url": "https://districts.ecourts.gov.in/delhimediation-centre",
+        "state": "Delhi"
+      },
+      "Rouse Avenue Court Complex": {
+        "court_url": "https://districts.ecourts.gov.in/rouse-avenue-court-complex",
+        "state": "Delhi"
+      }
+    }
+  },
+  "Goa": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/goa",
+    "districts": {
+      "South Goa": {
+        "court_url": "https://dcsgoa.dcourts.gov.in/",
+        "state": "Goa"
+      },
+      "North Goa": {
+        "court_url": "https://dcngoa.dcourts.gov.in/",
+        "state": "Goa"
+      }
+    }
+  },
+  "Gujarat": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/gujarat",
+    "districts": {
+      "Junagadh": {
+        "court_url": "https://junagadh.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Amreli": {
+        "court_url": "https://amreli.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Anand": {
+        "court_url": "https://anand.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Banaskantha": {
+        "court_url": "https://banaskantha.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Bharuch": {
+        "court_url": "https://bharuch.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Bhavnagar": {
+        "court_url": "https://bhavnagar.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Dahod": {
+        "court_url": "https://dahod.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Dang": {
+        "court_url": "https://districts.ecourts.gov.in/dang",
+        "state": "Gujarat"
+      },
+      "Gandhinagar": {
+        "court_url": "https://gandhinagar.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Jamnagar": {
+        "court_url": "https://jamnagar.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Kheda": {
+        "court_url": "https://kheda.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Kutch": {
+        "court_url": "https://kachchh.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Mehsana": {
+        "court_url": "https://mahesana.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Narmada": {
+        "court_url": "https://narmada.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Navsari": {
+        "court_url": "https://navsari.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Panchmahals": {
+        "court_url": "https://panchmahals.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Patan": {
+        "court_url": "https://patan.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Porbandar": {
+        "court_url": "https://porbandar.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Rajkot": {
+        "court_url": "https://rajkot.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Sabarkantha": {
+        "court_url": "https://sabarkantha.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Surat": {
+        "court_url": "https://surat.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Surendranagar": {
+        "court_url": "https://surendranagar.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Vadodara": {
+        "court_url": "https://vadodara.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Valsad": {
+        "court_url": "https://valsad.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Ahmedabad (Rural)": {
+        "court_url": "https://ahmedabad-rural.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Tapi": {
+        "court_url": "https://tapi.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Gir Somnath": {
+        "court_url": "https://girsomnath.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Aravalli": {
+        "court_url": "https://aravalli.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Morbi": {
+        "court_url": "https://morbi.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Devbhumi Dwarka": {
+        "court_url": "https://devbhumidwarka.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Chhota Udepur": {
+        "court_url": "https://chhotaudepur.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Mahisagar": {
+        "court_url": "https://mahisagar.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Botad": {
+        "court_url": "https://botad.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "City Civil & Sessions Court, Ahmedabad": {
+        "court_url": "https://ahmedabad-ccc.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Metropolitan Magistrates Court, Ahmedabad": {
+        "court_url": "https://ahmedabad-mmc.dcourts.gov.in/",
+        "state": "Gujarat"
+      },
+      "Family Courts of Gujarat": {
+        "court_url": "https://districts.ecourts.gov.in/family-court-gujrat",
+        "state": "Gujarat"
+      },
+      "Industrial/Labour Courts of Gujarat": {
+        "court_url": "https://indcourtguj.dcourts.gov.in/",
+        "state": "Gujarat"
+      }
+    }
+  },
+  "Haryana": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/haryana",
+    "districts": {
+      "Ambala": {
+        "court_url": "https://ambala.dcourts.gov.in",
+        "state": "Haryana"
+      },
+      "Bhiwani": {
+        "court_url": "https://bhiwani.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Faridabad": {
+        "court_url": "https://faridabad.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Fatehabad": {
+        "court_url": "https://fatehabad.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Gurgaon": {
+        "court_url": "https://gurugram.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Hisar": {
+        "court_url": "https://hisar.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Jhajjar": {
+        "court_url": "https://jhajjar.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Jind": {
+        "court_url": "https://jind.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Kaithal": {
+        "court_url": "https://kaithal.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Karnal": {
+        "court_url": "https://karnal.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Kurukshetra": {
+        "court_url": "https://kurukshetra.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Mahendragarh": {
+        "court_url": "https://narnaul.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Mewat": {
+        "court_url": "https://nuh.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Palwal": {
+        "court_url": "https://palwal.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Panchkula": {
+        "court_url": "https://panchkula.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Panipat": {
+        "court_url": "https://panipat.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Rewari": {
+        "court_url": "https://rewari.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Rohtak": {
+        "court_url": "https://rohtak.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Sirsa": {
+        "court_url": "https://sirsa.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Sonipat": {
+        "court_url": "https://sonepat.dcourts.gov.in/",
+        "state": "Haryana"
+      },
+      "Yamunanagar": {
+        "court_url": "https://yamunanagar.dcourts.gov.in/",
+        "state": "Haryana"
+      }
+    }
+  },
+  "Himachal Pradesh": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/hp",
+    "districts": {
+      "Shimla": {
+        "court_url": "https://shimla.dcourts.gov.in/",
+        "state": "Himachal Pradesh"
+      },
+      "Chamba": {
+        "court_url": "https://chamba.dcourts.gov.in/",
+        "state": "Himachal Pradesh"
+      },
+      "Una": {
+        "court_url": "https://una.dcourts.gov.in/",
+        "state": "Himachal Pradesh"
+      },
+      "Solan": {
+        "court_url": "https://solan.dcourts.gov.in/",
+        "state": "Himachal Pradesh"
+      },
+      "Mandi": {
+        "court_url": "https://mandi.dcourts.gov.in/",
+        "state": "Himachal Pradesh"
+      },
+      "Bilaspur HP": {
+        "court_url": "https://bilaspurhp.dcourts.gov.in/",
+        "state": "Himachal Pradesh"
+      },
+      "Hamirpur": {
+        "court_url": "https://hamirpur.dcourts.gov.in/",
+        "state": "Himachal Pradesh"
+      },
+      "Sirmaur": {
+        "court_url": "https://sirmaur.dcourts.gov.in/",
+        "state": "Himachal Pradesh"
+      },
+      "Kinnaur": {
+        "court_url": "https://kinnaur.dcourts.gov.in/",
+        "state": "Himachal Pradesh"
+      },
+      "Kullu": {
+        "court_url": "https://kullu.dcourts.gov.in/",
+        "state": "Himachal Pradesh"
+      },
+      "Kangra": {
+        "court_url": "https://kangra.dcourts.gov.in/",
+        "state": "Himachal Pradesh"
+      }
+    }
+  },
+  "Jammu and Kashmir": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/jk",
+    "districts": {
+      "Srinagar": {
+        "court_url": "https://srinagar.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Poonch": {
+        "court_url": "https://poonch.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Jammu": {
+        "court_url": "https://jammu.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Kathua": {
+        "court_url": "https://kathua.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Udhampur": {
+        "court_url": "https://udhampur.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Anantnag": {
+        "court_url": "https://anantnag.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Rajouri": {
+        "court_url": "https://rajouri.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Baramula": {
+        "court_url": "https://baramulla.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Badgam": {
+        "court_url": "https://budgam.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Doda": {
+        "court_url": "https://bhaderwah.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Kupwara": {
+        "court_url": "https://kupwara.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Pulwama": {
+        "court_url": "https://pulwama.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Samba": {
+        "court_url": "https://samba.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Bandipora": {
+        "court_url": "https://bandipora.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Kulgam": {
+        "court_url": "https://kulgam.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Reasi": {
+        "court_url": "https://reasi.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Ganderbal": {
+        "court_url": "https://ganderbal.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Ramban": {
+        "court_url": "https://ramban.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Shopian": {
+        "court_url": "https://shopian.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      },
+      "Kishtwar": {
+        "court_url": "https://kishtwar.dcourts.gov.in/",
+        "state": "Jammu and Kashmir"
+      }
+    }
+  },
+  "Jharkhand": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/jharkhand",
+    "districts": {
+      "Bokaro": {
+        "court_url": "https://bokaro.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Chatra": {
+        "court_url": "https://chatra.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Deoghar": {
+        "court_url": "https://deoghar.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Dhanbad": {
+        "court_url": "https://dhanbad.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Dumka": {
+        "court_url": "https://dumka.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "East Singhbhum": {
+        "court_url": "https://jamshedpur.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Garhwa": {
+        "court_url": "https://garhwa.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Giridih": {
+        "court_url": "https://giridih.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Godda": {
+        "court_url": "https://godda.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Gumla": {
+        "court_url": "https://gumla.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Hazaribag": {
+        "court_url": "https://hazaribag.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Jamtara": {
+        "court_url": "https://jamtara.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Khunti": {
+        "court_url": "https://khunti.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Koderma": {
+        "court_url": "https://koderma.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Latehar": {
+        "court_url": "https://latehar.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Lohardaga": {
+        "court_url": "https://lohardaga.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Pakur": {
+        "court_url": "https://pakur.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Palamu": {
+        "court_url": "https://palamu.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Ramgarh": {
+        "court_url": "https://ramgarh.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Ranchi": {
+        "court_url": "https://ranchi.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Sahibganj": {
+        "court_url": "https://sahibganj.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Seraikela-Kharsawan": {
+        "court_url": "https://seraikella.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "Simdega": {
+        "court_url": "https://simdega.dcourts.gov.in/",
+        "state": "Jharkhand"
+      },
+      "West Singhbhum": {
+        "court_url": "https://chaibasa.dcourts.gov.in/",
+        "state": "Jharkhand"
+      }
+    }
+  },
+  "Karnataka": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/karnataka",
+    "districts": {
+      "Bagalkot": {
+        "court_url": "https://bagalkot.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Bengaluru": {
+        "court_url": "https://bengaluru.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Bengaluru Rural": {
+        "court_url": "https://bengalururural.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Belagavi": {
+        "court_url": "https://belagavi.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Ballari": {
+        "court_url": "https://ballari.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Bidar": {
+        "court_url": "https://bidar.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Vijayapura": {
+        "court_url": "https://vijayapura.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Chamrajanagar": {
+        "court_url": "https://chamarajanagara.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Chikkamagaluru": {
+        "court_url": "https://chikkamagaluru.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Chikballapur": {
+        "court_url": "https://chikkaballapur.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Chitradurga": {
+        "court_url": "https://chitradurga.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Dakshina Kannada": {
+        "court_url": "https://dk.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Davangere": {
+        "court_url": "https://davanagere.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Dharwad": {
+        "court_url": "https://dharwad.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Gadag": {
+        "court_url": "https://gadag.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Kalaburagi": {
+        "court_url": "https://kalaburagi.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Hassan": {
+        "court_url": "https://hassan.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Haveri": {
+        "court_url": "https://haveri.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Kodagu": {
+        "court_url": "https://kodagu.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Kolar": {
+        "court_url": "https://kolar.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Koppal": {
+        "court_url": "https://koppal.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Mandya": {
+        "court_url": "https://mandya.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Mysuru": {
+        "court_url": "https://mysuru.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Raichur": {
+        "court_url": "https://raichur.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Shivamogga": {
+        "court_url": "https://shivamogga.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Tumakuru": {
+        "court_url": "https://tumakuru.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Udupi": {
+        "court_url": "https://udupi.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Uttara Kannada": {
+        "court_url": "https://uttarakannada.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Yadgir": {
+        "court_url": "https://yadgir.dcourts.gov.in/",
+        "state": "Karnataka"
+      },
+      "Ramnagar": {
+        "court_url": "https://ramanagara.dcourts.gov.in/",
+        "state": "Karnataka"
+      }
+    }
+  },
+  "Kerala": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/kerala",
+    "districts": {
+      "Alappuzha": {
+        "court_url": "https://alappuzha.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Ernakulam": {
+        "court_url": "https://ernakulam.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Idukki": {
+        "court_url": "https://idukki.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Kannur": {
+        "court_url": "https://kannur.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Kasargod": {
+        "court_url": "https://kasaragod.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Kollam": {
+        "court_url": "https://kollam.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Kottayam": {
+        "court_url": "https://kottayam.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Malappuram": {
+        "court_url": "https://malappuram.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Palakkad": {
+        "court_url": "https://palakkad.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Pathanamthitta": {
+        "court_url": "https://pathanamthitta.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Thiruvananthapuram": {
+        "court_url": "https://thiruvananthapuram.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Thrissur": {
+        "court_url": "https://thrissur.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Wayanad": {
+        "court_url": "https://wayanad.dcourts.gov.in/",
+        "state": "Kerala"
+      },
+      "Kozhikode": {
+        "court_url": "https://kozhikode.dcourts.gov.in/",
+        "state": "Kerala"
+      }
+    }
+  },
+  "Lakshadweep": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/lakshadweep",
+    "districts": {
+      "Lakshadweep District Court": {
+        "court_url": "https://kavaratti.dcourts.gov.in/",
+        "state": "Lakshadweep"
+      }
+    }
+  },
+  "Madhya Pradesh": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/mp",
+    "districts": {
+      "Ujjain": {
+        "court_url": "https://ujjain.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Bhopal": {
+        "court_url": "https://bhopal.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Vidisha": {
+        "court_url": "https://vidisha.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Alirajpur": {
+        "court_url": "https://alirajpur.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Anuppur": {
+        "court_url": "https://anuppur.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Ashoknagar": {
+        "court_url": "https://ashoknagar.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Balaghat": {
+        "court_url": "https://balaghat.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Barwani": {
+        "court_url": "https://barwani.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Betul": {
+        "court_url": "https://betul.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Bhind": {
+        "court_url": "https://bhind.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Umaria": {
+        "court_url": "https://umaria.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Burhanpur": {
+        "court_url": "https://burhanpur.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Chhatarpur": {
+        "court_url": "https://chhatarpur.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Chhindwara": {
+        "court_url": "https://chhindwara.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Damoh": {
+        "court_url": "https://damoh.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Datia": {
+        "court_url": "https://datia.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Dewas": {
+        "court_url": "https://dewas.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Dhar": {
+        "court_url": "https://dhar.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Dindori": {
+        "court_url": "https://dindori.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Guna": {
+        "court_url": "https://guna.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Gwalior": {
+        "court_url": "https://gwalior.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Harda": {
+        "court_url": "https://harda.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Hoshangabad": {
+        "court_url": "https://narmadapuram.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Indore": {
+        "court_url": "https://indore.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Jabalpur": {
+        "court_url": "https://jabalpur.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Jhabua": {
+        "court_url": "https://jhabua.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Katni": {
+        "court_url": "https://katni.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Khandwa": {
+        "court_url": "https://khandwa.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Khargone": {
+        "court_url": "https://mandleshwar.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Mandla": {
+        "court_url": "https://mandla.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Mandsaur": {
+        "court_url": "https://mandsaur.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Morena": {
+        "court_url": "https://morena.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Narsinghpur": {
+        "court_url": "https://narsinghpur.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Neemuch": {
+        "court_url": "https://neemuch.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Panna": {
+        "court_url": "https://panna.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Raisen": {
+        "court_url": "https://raisen.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Rajgarh": {
+        "court_url": "https://rajgarh.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Ratlam": {
+        "court_url": "https://ratlam.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Rewa": {
+        "court_url": "https://rewa.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Sagar": {
+        "court_url": "https://sagar.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Satna": {
+        "court_url": "https://satna.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Sehore": {
+        "court_url": "https://sehore.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Seoni": {
+        "court_url": "https://seoni.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Shahdol": {
+        "court_url": "https://shahdol.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Shajapur": {
+        "court_url": "https://shajapur.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Sheopur": {
+        "court_url": "https://sheopur.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Shivpuri": {
+        "court_url": "https://shivpuri.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Sidhi": {
+        "court_url": "https://sidhi.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Singrauli": {
+        "court_url": "https://singrauli.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      },
+      "Tikamgarh": {
+        "court_url": "https://tikamgarh.dcourts.gov.in/",
+        "state": "Madhya Pradesh"
+      }
+    }
+  },
+  "Maharashtra": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/maharashtra",
+    "districts": {
+      "Akola": {
+        "court_url": "https://akola.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Aurangabad Maharashtra": {
+        "court_url": "https://aurangabad.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Chandrapur": {
+        "court_url": "https://chandrapur.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Jalgaon": {
+        "court_url": "https://jalgaon.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Kolhapur": {
+        "court_url": "https://kolhapur.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Nagpur": {
+        "court_url": "https://nagpur.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Nanded": {
+        "court_url": "https://nanded.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Nashik": {
+        "court_url": "https://nashik.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Pune": {
+        "court_url": "https://pune.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Solapur": {
+        "court_url": "https://solapur.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Thane": {
+        "court_url": "https://thane.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Ahmednagar": {
+        "court_url": "https://ahmednagar.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Amravati": {
+        "court_url": "https://amravati.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Beed": {
+        "court_url": "https://beed.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Bhandara": {
+        "court_url": "https://bhandara.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Buldhana": {
+        "court_url": "https://buldana.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Dhule": {
+        "court_url": "https://dhule.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Gadchiroli": {
+        "court_url": "https://gadchiroli.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Gondia": {
+        "court_url": "https://gondia.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Jalna": {
+        "court_url": "https://jalna.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Latur": {
+        "court_url": "https://latur.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Nandurbar": {
+        "court_url": "https://nandurbar.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Osmanabad": {
+        "court_url": "https://osmanabad.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Parbhani": {
+        "court_url": "https://parbhani.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Raigad": {
+        "court_url": "https://raigad.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Ratnagiri": {
+        "court_url": "https://ratnagiri.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Sangli": {
+        "court_url": "https://sangli.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Satara": {
+        "court_url": "https://satara.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Sindhudurg": {
+        "court_url": "https://sindhudurg.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Wardha": {
+        "court_url": "https://wardha.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Washim": {
+        "court_url": "https://washim.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Yavatmal": {
+        "court_url": "https://yavatmal.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Maharashtra CoOperative Courts": {
+        "court_url": null,
+        "state": "Maharashtra"
+      },
+      "Mumbai CityCivil Court": {
+        "court_url": "https://cccmumbai.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Mumbai CMM Court": {
+        "court_url": "https://cmmmumbai.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Mumbai SmallCause Court": {
+        "court_url": "https://sccmumbai.dcourts.gov.in/",
+        "state": "Maharashtra"
+      },
+      "Maharashtra IndustrialLabour Courts": {
+        "court_url": null,
+        "state": "Maharashtra"
+      },
+      "Maharashtra Family Courts": {
+        "court_url": null,
+        "state": "Maharashtra"
+      },
+      "Mumbai MotorAccident Claims Tribunal": {
+        "court_url": null,
+        "state": "Maharashtra"
+      }
+    }
+  },
+  "Manipur": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/manipur",
+    "districts": {
+      "Bishnupur": {
+        "court_url": "https://bishnupur.dcourts.gov.in/",
+        "state": "Manipur"
+      },
+      "Churachandpur": {
+        "court_url": "https://churachandpur.dcourts.gov.in/",
+        "state": "Manipur"
+      },
+      "Imphal East": {
+        "court_url": "https://imphaleast.dcourts.gov.in/",
+        "state": "Manipur"
+      },
+      "Imphal West": {
+        "court_url": "https://imphalwest.dcourts.gov.in/",
+        "state": "Manipur"
+      },
+      "Senapati": {
+        "court_url": "https://senapati.dcourts.gov.in/",
+        "state": "Manipur"
+      },
+      "Tamenglong": {
+        "court_url": "https://tamenglong.dcourts.gov.in/",
+        "state": "Manipur"
+      },
+      "Thoubal": {
+        "court_url": "https://thoubal.dcourts.gov.in/",
+        "state": "Manipur"
+      },
+      "Ukhrul": {
+        "court_url": "https://ukhrul.dcourts.gov.in/",
+        "state": "Manipur"
+      }
+    }
+  },
+  "Meghalaya": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/meghalaya",
+    "districts": {
+      "West Garo Hills": {
+        "court_url": "https://tura.dcourts.gov.in/",
+        "state": "Meghalaya"
+      },
+      "East Garo Hills": {
+        "court_url": "https://williamnagar.dcourts.gov.in/",
+        "state": "Meghalaya"
+      },
+      "South Garo Hills": {
+        "court_url": "https://baghmara.dcourts.gov.in/",
+        "state": "Meghalaya"
+      },
+      "West Khasi Hills": {
+        "court_url": "https://nongstoin.dcourts.gov.in/",
+        "state": "Meghalaya"
+      },
+      "East Khasi Hills": {
+        "court_url": "https://shillong.dcourts.gov.in/",
+        "state": "Meghalaya"
+      },
+      "Ri-Bhoi": {
+        "court_url": "https://nongpoh.dcourts.gov.in/",
+        "state": "Meghalaya"
+      },
+      "West Jiantia Hills": {
+        "court_url": "https://jowai.dcourts.gov.in/",
+        "state": "Meghalaya"
+      },
+      "South West Garo Hills": {
+        "court_url": "https://ampati.dcourts.gov.in/",
+        "state": "Meghalaya"
+      },
+      "South West Khasi Hills": {
+        "court_url": "https://mawkyrwat.dcourts.gov.in/",
+        "state": "Meghalaya"
+      },
+      "North Garo Hills": {
+        "court_url": "https://resubelpara.dcourts.gov.in/",
+        "state": "Meghalaya"
+      },
+      "East Jaintia Hills": {
+        "court_url": "https://khliehriat.dcourts.gov.in/",
+        "state": "Meghalaya"
+      }
+    }
+  },
+  "Mizoram": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/mizoram",
+    "districts": {
+      "Aizawl": {
+        "court_url": "https://aizawl.dcourts.gov.in/",
+        "state": "Mizoram"
+      },
+      "Champhai": {
+        "court_url": "https://champhai.dcourts.gov.in/",
+        "state": "Mizoram"
+      },
+      "Kolasib": {
+        "court_url": "https://kolasib.dcourts.gov.in/",
+        "state": "Mizoram"
+      },
+      "Lawngtlai": {
+        "court_url": "https://lawngtlai.dcourts.gov.in/",
+        "state": "Mizoram"
+      },
+      "Lunglei": {
+        "court_url": "https://lunglei.dcourts.gov.in/",
+        "state": "Mizoram"
+      },
+      "Mamit": {
+        "court_url": "https://mamit.dcourts.gov.in/",
+        "state": "Mizoram"
+      },
+      "Saiha": {
+        "court_url": "https://siaha.dcourts.gov.in/",
+        "state": "Mizoram"
+      },
+      "Serchhip": {
+        "court_url": "https://serchhip.dcourts.gov.in/",
+        "state": "Mizoram"
+      }
+    }
+  },
+  "Nagaland": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/nagaland",
+    "districts": {
+      "Dimapur": {
+        "court_url": "https://dimapur.dcourts.gov.in/",
+        "state": "Nagaland"
+      },
+      "Kiphire": {
+        "court_url": "https://kiphire.dcourts.gov.in/",
+        "state": "Nagaland"
+      },
+      "Kohima": {
+        "court_url": "https://kohima.dcourts.gov.in/",
+        "state": "Nagaland"
+      },
+      "Longleng": {
+        "court_url": "https://longleng.dcourts.gov.in/",
+        "state": "Nagaland"
+      },
+      "Mokokchung": {
+        "court_url": "https://mokokchung.dcourts.gov.in/",
+        "state": "Nagaland"
+      },
+      "Mon": {
+        "court_url": "https://mon.dcourts.gov.in/",
+        "state": "Nagaland"
+      },
+      "Peren": {
+        "court_url": "https://peren.dcourts.gov.in/",
+        "state": "Nagaland"
+      },
+      "Phek": {
+        "court_url": "https://phek.dcourts.gov.in/",
+        "state": "Nagaland"
+      },
+      "Tuensang": {
+        "court_url": "https://tuensang.dcourts.gov.in/",
+        "state": "Nagaland"
+      },
+      "Wokha": {
+        "court_url": "https://wokha.dcourts.gov.in/",
+        "state": "Nagaland"
+      },
+      "Zunheboto": {
+        "court_url": "https://zunheboto.dcourts.gov.in/",
+        "state": "Nagaland"
+      }
+    }
+  },
+  "Odisha": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/odisha",
+    "districts": {
+      "Angul": {
+        "court_url": "https://angul.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Balangir": {
+        "court_url": "https://balangir.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Balasore": {
+        "court_url": "https://balasore.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Bargarh": {
+        "court_url": "https://bargarh.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Bhadrak": {
+        "court_url": "https://bhadrak.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Boudh": {
+        "court_url": "https://boudh.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Cuttack": {
+        "court_url": "https://cuttack.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Deogarh": {
+        "court_url": "https://deogarh.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Dhenkanal": {
+        "court_url": "https://dhenkanal.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Gajapati": {
+        "court_url": "https://gajapati.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Ganjam": {
+        "court_url": "https://ganjam.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Jagatsinghapur": {
+        "court_url": "https://jagatsinghpur.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Jajpur": {
+        "court_url": "https://jajpur.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Jharsuguda": {
+        "court_url": "https://jharsuguda.dcourts.gov.in",
+        "state": "Odisha"
+      },
+      "Kalahandi": {
+        "court_url": "https://kalahandi.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Kandhamal": {
+        "court_url": "https://kandhamal.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Kendrapara": {
+        "court_url": "https://kendrapara.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Kendujhar": {
+        "court_url": "https://keonjhar.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Khordha": {
+        "court_url": "https://khurda.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Koraput": {
+        "court_url": "https://koraput.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Malkangiri": {
+        "court_url": "https://malkangiri.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Mayurbhanj": {
+        "court_url": "https://mayurbhanj.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Nabarangpur": {
+        "court_url": "https://nabarangpur.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Nayagarh": {
+        "court_url": "https://nayagarh.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Nuapada": {
+        "court_url": "https://nuapada.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Puri": {
+        "court_url": "https://puri.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Rayagada": {
+        "court_url": "https://rayagada.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Sambalpur": {
+        "court_url": "https://sambalpur.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Subarnapur": {
+        "court_url": "https://sonepur.dcourts.gov.in/",
+        "state": "Odisha"
+      },
+      "Sundargarh": {
+        "court_url": "https://sundargarh.dcourts.gov.in/",
+        "state": "Odisha"
+      }
+    }
+  },
+  "Puducherry": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/puducherry",
+    "districts": {
+      "Karikal": {
+        "court_url": "https://karaikal.dcourts.gov.in/",
+        "state": "Puducherry"
+      },
+      "Mahe": {
+        "court_url": "https://mahe.dcourts.gov.in/",
+        "state": "Puducherry"
+      },
+      "Pondicherry": {
+        "court_url": "https://puducherry.dcourts.gov.in/",
+        "state": "Puducherry"
+      },
+      "Yanam": {
+        "court_url": "https://yanam.dcourts.gov.in/",
+        "state": "Puducherry"
+      }
+    }
+  },
+  "Punjab": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/punjab",
+    "districts": {
+      "Amritsar": {
+        "court_url": "https://amritsar.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Barnala": {
+        "court_url": "https://barnala.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Bathinda": {
+        "court_url": "https://bathinda.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Faridkot": {
+        "court_url": "https://faridkot.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Fatehgarh Sahib": {
+        "court_url": "https://fatehgarhsahib.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Ferozepur": {
+        "court_url": "https://ferozepur.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Gurdaspur": {
+        "court_url": "https://gurdaspur.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Hoshiarpur": {
+        "court_url": "https://hoshiarpur.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Jalandhar": {
+        "court_url": "https://jalandhar.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Kapurthala": {
+        "court_url": "https://kapurthala.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Ludhiana": {
+        "court_url": "https://ludhiana.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Mansa": {
+        "court_url": "https://mansa.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Moga": {
+        "court_url": "https://moga.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Muktsar": {
+        "court_url": "https://muktsarsahib.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Nawanshahr": {
+        "court_url": "https://sbsnagar.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Patiala": {
+        "court_url": "https://patiala.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Rupnagar": {
+        "court_url": "https://rupnagar.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Sangrur": {
+        "court_url": "https://sangrur.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "SAS Nagar": {
+        "court_url": "https://sasnagar.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Tarn Taran": {
+        "court_url": "https://tarntaran.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Pathankot": {
+        "court_url": "https://pathankot.dcourts.gov.in/",
+        "state": "Punjab"
+      },
+      "Fazilka": {
+        "court_url": "https://fazilka.dcourts.gov.in/",
+        "state": "Punjab"
+      }
+    }
+  },
+  "Rajasthan": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/rajasthan",
+    "districts": {
+      "Ajmer": {
+        "court_url": "https://ajmer.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Alwar": {
+        "court_url": "https://alwar.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Banswara": {
+        "court_url": "https://banswara.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Baran": {
+        "court_url": "https://baran.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Barmer": {
+        "court_url": "https://balotra.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Bharatpur": {
+        "court_url": "https://bharatpur.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Bhilwara": {
+        "court_url": "https://bhilwara.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Bikaner": {
+        "court_url": "https://bikaner.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Bundi": {
+        "court_url": "https://bundi.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Chittorgarh": {
+        "court_url": "https://chittorgarh.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Churu": {
+        "court_url": "https://churu.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Dausa": {
+        "court_url": "https://dausa.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Dholpur": {
+        "court_url": "https://dholpur.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Dungarpur": {
+        "court_url": "https://dungarpur.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Hanumangarh": {
+        "court_url": "https://hanumangarh.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Jaipur": {
+        "court_url": "https://jaipurdistrict.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Jaisalmer": {
+        "court_url": "https://jaisalmer.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Jalore": {
+        "court_url": "https://jalore.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Jhalawar": {
+        "court_url": "https://jhalawar.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Jhunjhunu": {
+        "court_url": "https://jhunjhunu.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Jodhpur": {
+        "court_url": "https://jodhpur.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Karauli": {
+        "court_url": "https://karauli.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Kota": {
+        "court_url": "https://kota.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Nagaur": {
+        "court_url": "https://nagaur.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Pali": {
+        "court_url": "https://pali.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Pratapgarh": {
+        "court_url": "https://pratapgarh.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Rajsamand": {
+        "court_url": "https://rajsamand.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Sawai Madhopur": {
+        "court_url": "https://sawaimadhopur.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Sikar": {
+        "court_url": "https://sikar.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Sirohi": {
+        "court_url": "https://sirohi.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Sri Ganganagar": {
+        "court_url": "https://ganganagar.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Tonk": {
+        "court_url": "https://tonk.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Udaipur": {
+        "court_url": "https://udaipur.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Jaipur Metro-I": {
+        "court_url": "https://jaipurmetro1.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Jodhpur Metro": {
+        "court_url": "https://jodhpurmetro.dcourts.gov.in/",
+        "state": "Rajasthan"
+      },
+      "Jaipur Metro-II": {
+        "court_url": "https://jaipurmetro2.dcourts.gov.in/",
+        "state": "Rajasthan"
+      }
+    }
+  },
+  "Sikkim": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/sikkim",
+    "districts": {
+      "East Sikkim": {
+        "court_url": "https://gangtok.dcourts.gov.in/",
+        "state": "Sikkim"
+      },
+      "North Sikkim": {
+        "court_url": "https://mangan.dcourts.gov.in/",
+        "state": "Sikkim"
+      },
+      "South Sikkim": {
+        "court_url": "https://namchi.dcourts.gov.in/",
+        "state": "Sikkim"
+      },
+      "West Sikkim": {
+        "court_url": "https://gyalshing.dcourts.gov.in/",
+        "state": "Sikkim"
+      },
+      "District & Sessions Court, Namchi, Sikkim": {
+        "court_url": "https://namchi.dcourts.gov.in/",
+        "state": "Sikkim"
+      }
+    }
+  },
+  "Tamil Nadu": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/tn",
+    "districts": {
+      "Ariyalur": {
+        "court_url": "https://ariyalur.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Chennai": {
+        "court_url": "https://chennai.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Coimbatore": {
+        "court_url": "https://coimbatore.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Cuddalore": {
+        "court_url": "https://cuddalore.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Dharmapuri": {
+        "court_url": "https://dharmapuri.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Dindigul": {
+        "court_url": "https://dindigul.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Erode": {
+        "court_url": "https://erode.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Kanchipuram": {
+        "court_url": "https://kanchipuram.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Kanyakumari": {
+        "court_url": "https://kanniyakumari.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Karur": {
+        "court_url": "https://karur.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Krishnagiri": {
+        "court_url": "https://krishnagiri.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Madurai": {
+        "court_url": "https://madurai.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Nagapattinam": {
+        "court_url": "https://nagapattinam.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Namakkal": {
+        "court_url": "https://namakkal.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Perambalur": {
+        "court_url": "https://perambalur.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Pudukkottai": {
+        "court_url": "https://pudukkottai.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Ramanathapuram": {
+        "court_url": "https://ramanathapuram.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Salem": {
+        "court_url": "https://salem.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Sivaganga": {
+        "court_url": "https://sivagangai.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Thanjavur": {
+        "court_url": "https://thanjavur.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "The Nilgiris": {
+        "court_url": "https://nilgiris.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Theni": {
+        "court_url": "https://theni.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Thoothukudi": {
+        "court_url": "https://thoothukudi.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Tiruchirappalli": {
+        "court_url": "https://tiruchirappalli.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Tirunelveli": {
+        "court_url": "https://tirunelveli.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Tiruppur": {
+        "court_url": "https://tiruppur.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Tiruvallur": {
+        "court_url": "https://tiruvallur.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Tiruvannamalai": {
+        "court_url": "https://tiruvannamalai.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Tiruvarur": {
+        "court_url": "https://tiruvarur.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Vellore": {
+        "court_url": "https://vellore.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Viluppuram": {
+        "court_url": "https://viluppuram.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Virudhunagar": {
+        "court_url": "https://virudhunagar.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Mayiladuthurai": {
+        "court_url": "https://mayiladuthurai.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Chengalpattu": {
+        "court_url": "https://chengalpattu.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Ranipet": {
+        "court_url": "https://ranipet.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Tirupathur": {
+        "court_url": " https://tirupathur.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Tenkasi": {
+        "court_url": "https://tenkasi.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      },
+      "Kallakurichi": {
+        "court_url": "https://kallakurichi.dcourts.gov.in/",
+        "state": "Tamil Nadu"
+      }
+    }
+  },
+  "Tripura": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/tripura",
+    "districts": {
+      "North Tripura": {
+        "court_url": "https://northtripura.dcourts.gov.in/",
+        "state": "Tripura"
+      },
+      "South Tripura": {
+        "court_url": "https://southtripura.dcourts.gov.in/",
+        "state": "Tripura"
+      },
+      "West Tripura": {
+        "court_url": "https://westtripura.dcourts.gov.in/",
+        "state": "Tripura"
+      },
+      "Unakoti": {
+        "court_url": "https://unakotitrp.dcourts.gov.in/",
+        "state": "Tripura"
+      },
+      "Gomati": {
+        "court_url": "https://gomatitrp.dcourts.gov.in/",
+        "state": "Tripura"
+      },
+      "Khowai": {
+        "court_url": "https://khowaitrp.dcourts.gov.in/",
+        "state": "Tripura"
+      },
+      "Dhalai": {
+        "court_url": "https://dhalaitrp.dcourts.gov.in/",
+        "state": "Tripura"
+      },
+      "Sepahijala": {
+        "court_url": "https://sepahijalatrp.dcourts.gov.in/",
+        "state": "Tripura"
+      }
+    }
+  },
+  "Uttar Pradesh": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/up",
+    "districts": {
+      "Ghaziabad": {
+        "court_url": "https://ghaziabad.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Allahabad": {
+        "court_url": "https://prayagraj.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Faizabad": {
+        "court_url": "https://ayodhya.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Ghazipur": {
+        "court_url": "https://ghazipur.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Gorakhpur": {
+        "court_url": "https://gorakhpur.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Kannauj": {
+        "court_url": "https://kannauj.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Lucknow": {
+        "court_url": "https://lucknow.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Varanasi": {
+        "court_url": "https://varanasi.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Jaunpur": {
+        "court_url": "https://jaunpur.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Bareilly": {
+        "court_url": "https://bareilly.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Muzaffarnagar": {
+        "court_url": "https://muzaffarnagar.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Meerut": {
+        "court_url": "https://meerut.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Agra": {
+        "court_url": "https://agra.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Sitapur": {
+        "court_url": "https://sitapur.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Aligarh": {
+        "court_url": "https://aligarh.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Ambedkar Nagar": {
+        "court_url": "https://ambedkarnagar.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Auraiya": {
+        "court_url": "https://auraiya.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Azamgarh": {
+        "court_url": "https://azamgarh.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Bagpat": {
+        "court_url": "https://baghpat.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Bahraich": {
+        "court_url": "https://bahraich.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Ballia": {
+        "court_url": "https://ballia.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Balrampur": {
+        "court_url": "https://balrampurup.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Banda": {
+        "court_url": "https://banda.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Barabanki": {
+        "court_url": "https://barabanki.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Basti": {
+        "court_url": "https://basti.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Bijnor": {
+        "court_url": "https://bijnor.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Budaun": {
+        "court_url": "https://budaun.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Bulandshahar": {
+        "court_url": "https://bulandshahar.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Chandauli": {
+        "court_url": "https://chandauli.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Chitrakoot": {
+        "court_url": "https://chitrakoot.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Deoria": {
+        "court_url": "https://deoria.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Etah": {
+        "court_url": "https://etah.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Etawah": {
+        "court_url": "https://etawah.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Farrukhabad": {
+        "court_url": "https://farrukhabad.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Fatehpur": {
+        "court_url": "https://fatehpur.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Firozabad": {
+        "court_url": "https://firozabad.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Gautam Buddha Nagar": {
+        "court_url": "https://gbnagar.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Gonda": {
+        "court_url": "https://gonda.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Hamirpur UP": {
+        "court_url": "https://hamirpurup.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Hardoi": {
+        "court_url": "https://hardoi.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Hathras": {
+        "court_url": "https://hathras.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Jalaun": {
+        "court_url": "https://jalaun.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Jhansi": {
+        "court_url": "https://jhansi.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Jyotiba Phule Nagar": {
+        "court_url": "https://amroha.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Kanpur Dehat": {
+        "court_url": "https://kanpurdehat.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Kanpur Nagar": {
+        "court_url": "https://kanpurnagar.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Kanshiramnagar": {
+        "court_url": "https://kasganj.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Kaushambi": {
+        "court_url": "https://kaushambi.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Kheri": {
+        "court_url": "https://kheri.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Kushinagar": {
+        "court_url": "https://kushinagar.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Lalitpur": {
+        "court_url": "https://lalitpur.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Maharajganj": {
+        "court_url": "https://maharajganj.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Mahoba": {
+        "court_url": "https://mahoba.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Mathura": {
+        "court_url": "https://mathura.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Mau": {
+        "court_url": "https://mau.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Mirzapur": {
+        "court_url": "https://mirzapur.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Moradabad": {
+        "court_url": "https://moradabad.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Pilibhit": {
+        "court_url": "https://pilibhit.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "RaeBareli": {
+        "court_url": "https://raebareli.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Rampur": {
+        "court_url": "https://rampur.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Sant Kabir Nagar": {
+        "court_url": "https://santkabirnagar.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Bhadohi": {
+        "court_url": "https://bhadohi.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Shahjahanpur": {
+        "court_url": "https://shahjahanpur.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Shravasti": {
+        "court_url": "https://shravasti.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Siddharthnagar": {
+        "court_url": "https://siddharthnagar.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Sonbhadra": {
+        "court_url": "https://sonbhadra.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Sultanpur": {
+        "court_url": "https://sultanpur.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Unnao": {
+        "court_url": "https://unnao.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Mainpuri": {
+        "court_url": "https://mainpuri.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Saharanpur": {
+        "court_url": "https://saharanpur.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Hapur": {
+        "court_url": "https://hapur.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Sambhal": {
+        "court_url": "https://sambhal.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Shamli": {
+        "court_url": "https://shamli.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      },
+      "Amethi": {
+        "court_url": "https://districts.ecourts.gov.in/amethi",
+        "state": "Uttar Pradesh"
+      },
+      "PratapgarhDistrict": {
+        "court_url": "https://pratapgarhup.dcourts.gov.in/",
+        "state": "Uttar Pradesh"
+      }
+    }
+  },
+  "Uttarakhand": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/uttarakhand",
+    "districts": {
+      "Dehradun": {
+        "court_url": "https://dehradun.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      },
+      "Haridwar": {
+        "court_url": "https://haridwar.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      },
+      "Nainital": {
+        "court_url": "https://nainital.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      },
+      "Rudraprayag": {
+        "court_url": "https://rudraprayag.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      },
+      "Almora": {
+        "court_url": "https://almora.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      },
+      "Bageshwar": {
+        "court_url": "https://bageshwar.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      },
+      "Chamoli": {
+        "court_url": "https://chamoli.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      },
+      "Champawat": {
+        "court_url": "https://champawat.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      },
+      "Pauri Garhwal": {
+        "court_url": "https://paurigarhwal.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      },
+      "Pithoragarh": {
+        "court_url": "https://pithoragarh.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      },
+      "Tehri Garhwal": {
+        "court_url": "https://tehrigarhwal.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      },
+      "Udham Singh Nagar": {
+        "court_url": "https://usnagar.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      },
+      "Uttarkashi": {
+        "court_url": "https://uttarkashi.dcourts.gov.in/",
+        "state": "Uttarakhand"
+      }
+    }
+  },
+  "West Bengal": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/wb",
+    "districts": {
+      "Bankura": {
+        "court_url": "https://bankura.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Purba Bardhaman": {
+        "court_url": "https://purbabardhaman.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Birbhum": {
+        "court_url": "https://birbhum.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Cooch Behar": {
+        "court_url": "https://coochbehar.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Darjeeling": {
+        "court_url": "https://darjeeling.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "East Medinipur": {
+        "court_url": "https://purbamedinipur.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Hooghly": {
+        "court_url": "https://hooghly.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Howrah": {
+        "court_url": "https://howrah.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Jalpaiguri": {
+        "court_url": "https://jalpaiguri.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Malda": {
+        "court_url": "https://malda.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Murshidabad": {
+        "court_url": "https://murshidabad.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Nadia": {
+        "court_url": "https://nadia.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "North 24 Parganas": {
+        "court_url": "https://north24parganas.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "North Dinajpur": {
+        "court_url": "https://northdinajpur.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Purulia": {
+        "court_url": "https://purulia.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "South 24 Parganas": {
+        "court_url": "https://south24parganas.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "South Dinajpur": {
+        "court_url": "https://dakshindinajpur.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "West Medinipur": {
+        "court_url": "https://paschimmedinipur.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Kolkata-City Civil Court": {
+        "court_url": "https://citycivilcourtcalcutta.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Kolkata-City Sessions Court": {
+        "court_url": "https://citysessions.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Kolkata-Presidency Small Causes Court": {
+        "court_url": "https://psccourt.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Kalimpong": {
+        "court_url": "https://kalimpong.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Paschim Bardhaman": {
+        "court_url": "https://paschimbardhaman.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Jhargram": {
+        "court_url": "https://jhargram.dcourts.gov.in/",
+        "state": "West Bengal"
+      },
+      "Alipurduar": {
+        "court_url": "https://alipurduar.dcourts.gov.in/",
+        "state": "West Bengal"
+      }
+    }
+  },
+  "Telangana": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/telangana",
+    "districts": {
+      "Hyderabad-City Civil Court": {
+        "court_url": "https://hccc.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Hyderabad-Metropolitan Sessions Court": {
+        "court_url": "https://hmsj.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Hyderabad-City Small Cause Court": {
+        "court_url": "https://hcscc.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Adilabad": {
+        "court_url": "https://adilabad.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Karimnagar": {
+        "court_url": "https://karimnagar.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Khammam": {
+        "court_url": "https://khammam.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Medak": {
+        "court_url": "https://medak.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Mahboobnagar": {
+        "court_url": "https://mahabubnagar.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Nalgonda": {
+        "court_url": "https://nalgonda.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Nizamabad": {
+        "court_url": "https://nizamabad.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Warangal": {
+        "court_url": "https://warangal.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Rangareddy": {
+        "court_url": "https://rangareddy.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Hyderabad-Prl. CBI Court": {
+        "court_url": "https://hcbi.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Bhadradri Kothagudem": {
+        "court_url": "https://kothagudem.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Hanumakonda": {
+        "court_url": "https://hanumakonda.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Jagitial": {
+        "court_url": "https://jagitial.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Jangoan": {
+        "court_url": "https://jangoan.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Jayashankar Bhupalapally": {
+        "court_url": "https://bhupalapally.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Jogulamba Gadwal": {
+        "court_url": "https://gadwal.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Kamareddy": {
+        "court_url": "https://kamareddy.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Kumuram Bheem Asifabad": {
+        "court_url": "https://asifabad.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Mahabubabad": {
+        "court_url": "https://mahabubabad.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Mancherial": {
+        "court_url": "https://mancherial.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Medchal Malkajgiri": {
+        "court_url": "https://medchalmalkajgiri.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Mulugu": {
+        "court_url": "https://mulugu.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Nagarkurnool": {
+        "court_url": "https://nagarkurnool.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Narayanpet": {
+        "court_url": "https://narayanpet.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Nirmal": {
+        "court_url": "https://nirmal.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Peddapalli": {
+        "court_url": "https://peddapalli.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Rajanna Sircilla": {
+        "court_url": "https://rajannasircilla.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Sangareddy": {
+        "court_url": "https://sangareddy.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Siddipet": {
+        "court_url": "https://siddipet.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Suryapet": {
+        "court_url": "https://suryapet.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Vikarabad": {
+        "court_url": "https://vikarabad.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Wanaparthy": {
+        "court_url": "https://wanaparthy.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Yadadri Bhuvanagiri": {
+        "court_url": "https://yadadri.dcourts.gov.in/",
+        "state": "Telangana"
+      },
+      "Hyderabad-Integrated Family Courts": {
+        "court_url": "https://hydifc.dcourts.gov.in/",
+        "state": "Telangana"
+      }
+    }
+  },
+  "Ladakh": {
+    "url": "https://ecourts.gov.in/ecourts_home/index.php?p=dist_court/ladakh",
+    "districts": {
+      "Leh Ladakh": {
+        "court_url": "https://leh.dcourts.gov.in/",
+        "state": "Ladakh"
+      },
+      "Kargil": {
+        "court_url": "https://kargil.dcourts.gov.in/",
+        "state": "Ladakh"
+      }
+    }
+  }
+}

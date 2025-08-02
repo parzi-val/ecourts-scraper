@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECourts Case Scraper</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .step-active {
+            @apply bg-blue-500 text-white;
+        }
+
+        .step-completed {
+            @apply bg-green-500 text-white;
+        }
+
+        .step-pending {
+            @apply bg-gray-300 text-gray-600;
+        }
+
+        .form-step {
+            display: none;
+        }
+
+        .form-step.active {
+            display: block;
+        }
+
+        .loading {
+            @apply animate-spin;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+    <div class="min-h-screen flex">
+        <!-- Progress Sidebar -->
+        <div class="w-80 bg-white shadow-lg">
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-8">
+                    <h1 class="text-2xl font-bold text-gray-800">
+                        <i class="fas fa-search mr-2"></i>
+                        ECourts Scraper
+                    </h1>
+                    <a href="/admin" class="text-blue-600 hover:text-blue-800 text-sm" title="View Logs">
+                        <i class="fas fa-chart-line"></i>
+                    </a>
+                </div>
+
+                <!-- Progress Steps -->
+                <div class="space-y-4">
+                    <div class="step-item" data-step="1">
+                        <div class="flex items-center">
+                            <div
+                                class="step-circle step-pending w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-700">Select State</h3>
+                                <p class="text-sm text-gray-500">Choose your state</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step-item" data-step="2">
+                        <div class="flex items-center">
+                            <div
+                                class="step-circle step-pending w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-700">Select District</h3>
+                                <p class="text-sm text-gray-500">Choose your district</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step-item" data-step="3">
+                        <div class="flex items-center">
+                            <div
+                                class="step-circle step-pending w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-700">Initialize Session</h3>
+                                <p class="text-sm text-gray-500">Connect to ECourts</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step-item" data-step="4">
+                        <div class="flex items-center">
+                            <div
+                                class="step-circle step-pending w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-gavel"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-700">Select Case Type</h3>
+                                <p class="text-sm text-gray-500">Choose case category</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step-item" data-step="5">
+                        <div class="flex items-center">
+                            <div
+                                class="step-circle step-pending w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-700">Enter Case Details</h3>
+                                <p class="text-sm text-gray-500">Case number & year</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step-item" data-step="6">
+                        <div class="flex items-center">
+                            <div
+                                class="step-circle step-pending w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-700">Solve CAPTCHA</h3>
+                                <p class="text-sm text-gray-500">Verify human user</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="step-item" data-step="7">
+                        <div class="flex items-center">
+                            <div
+                                class="step-circle step-pending w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-gray-700">Search & Results</h3>
+                                <p class="text-sm text-gray-500">Find case details</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-8">
+            <div class="max-w-2xl mx-auto">
+                <!-- Step 1: Select State -->
+                <div class="form-step active" id="step-1">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4">Select State</h2>
+                        <p class="text-gray-600 mb-6">Choose the state where your case was filed.</p>
+                        <select id="state-select"
+                            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            <option value="">Select a state...</option>
+                        </select>
+                        <button id="next-step-1"
+                            class="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                            disabled>
+                            Next <i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Step 2: Select District -->
+                <div class="form-step" id="step-2">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4">Select District</h2>
+                        <p class="text-gray-600 mb-6">Choose the district where your case was filed.</p>
+                        <select id="district-select"
+                            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            disabled>
+                            <option value="">Select a district...</option>
+                        </select>
+                        <div class="flex gap-4 mt-4">
+                            <button id="prev-step-2"
+                                class="bg-gray-500 hover:bg-gray-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                                <i class="fas fa-arrow-left mr-2"></i> Previous
+                            </button>
+                            <button id="next-step-2"
+                                class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                                disabled>
+                                Next <i class="fas fa-arrow-right ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3: Initialize Session -->
+                <div class="form-step" id="step-3">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4">Initialize Session</h2>
+                        <p class="text-gray-600 mb-6">Click the button below to establish a connection with the ECourts
+                            system for the selected district.</p>
+                        <button id="init-btn"
+                            class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                            <i class="fas fa-cog mr-2"></i>
+                            Initialize Session
+                        </button>
+                        <div class="flex gap-4 mt-4">
+                            <button id="prev-step-3"
+                                class="bg-gray-500 hover:bg-gray-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                                <i class="fas fa-arrow-left mr-2"></i> Previous
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 4: Select Court Complex -->
+                <div class="form-step" id="step-4">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4">Select Court Complex</h2>
+                        <p class="text-gray-600 mb-6">Choose the court complex where your case was filed.</p>
+                        <select id="court-complex-select"
+                            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            disabled>
+                            <option value="">Loading court complexes...</option>
+                        </select>
+                        <button id="next-step-4"
+                            class="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                            disabled>
+                            Next <i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Step 5: Select Case Type -->
+                <div class="form-step" id="step-5">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4">Select Case Type</h2>
+                        <p class="text-gray-600 mb-6">Choose the type of case you're searching for.</p>
+                        <select id="case-type-select"
+                            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            disabled>
+                            <option value="">Loading case types...</option>
+                        </select>
+                        <div class="flex gap-4 mt-4">
+                            <button id="prev-step-5"
+                                class="bg-gray-500 hover:bg-gray-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                                <i class="fas fa-arrow-left mr-2"></i> Previous
+                            </button>
+                            <button id="next-step-5"
+                                class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                                disabled>
+                                Next <i class="fas fa-arrow-right ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 6: Enter Case Details -->
+                <div class="form-step" id="step-6">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4">Enter Case Details</h2>
+                        <p class="text-gray-600 mb-6">Provide the case number and filing year.</p>
+
+                        <div class="grid grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Case Number</label>
+                                <input type="text" id="case-number"
+                                    class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                    placeholder="e.g., 1765">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Filing Year</label>
+                                <input type="text" id="case-year"
+                                    class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                    placeholder="e.g., 2024">
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <button id="prev-step-6"
+                                class="bg-gray-500 hover:bg-gray-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                                <i class="fas fa-arrow-left mr-2"></i> Previous
+                            </button>
+                            <button id="next-step-6"
+                                class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                                Next <i class="fas fa-arrow-right ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 7: CAPTCHA -->
+                <div class="form-step" id="step-7">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4">Solve CAPTCHA</h2>
+                        <p class="text-gray-600 mb-6">Enter the characters shown in the image below.</p>
+
+                        <div class="mb-4">
+                            <img id="captcha-image" class="border border-gray-300 rounded-lg p-2"
+                                style="display: none;">
+                            <button id="refresh-captcha"
+                                class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-medium transition-colors">
+                                <i class="fas fa-refresh mr-2"></i> Load CAPTCHA
+                            </button>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="block text-sm font-medium text-gray-700 mb-2">CAPTCHA Text</label>
+                            <input type="text" id="captcha-input"
+                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                                placeholder="Enter CAPTCHA text">
+                        </div>
+
+                        <div class="flex gap-4">
+                            <button id="prev-step-7"
+                                class="bg-gray-500 hover:bg-gray-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                                <i class="fas fa-arrow-left mr-2"></i> Previous
+                            </button>
+                            <button id="next-step-7"
+                                class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                                Search <i class="fas fa-search ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 8: Results -->
+                <div class="form-step" id="step-8">
+                    <div class="bg-white rounded-lg shadow-md p-6">
+                        <h2 class="text-xl font-semibold mb-4">Search Results</h2>
+                        <div id="loading-results" class="text-center py-8" style="display: none;">
+                            <i class="fas fa-spinner fa-spin text-3xl text-blue-500 mb-4"></i>
+                            <p class="text-gray-600">Searching for case details...</p>
+                        </div>
+                        <div id="results-container" class="space-y-4">
+                            <!-- Results will be populated here -->
+                        </div>
+                        <div class="flex gap-4 mt-6">
+                            <button id="new-search"
+                                class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                                <i class="fas fa-plus mr-2"></i> New Search
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/static/js/app.js?v=4"></script>
+</body>
+
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECourts Scraper - Admin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="bg-gray-50">
+    <div class="min-h-screen">
+        <!-- Header -->
+        <header class="bg-white shadow-sm border-b">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center py-4">
+                    <h1 class="text-2xl font-bold text-gray-900">
+                        <i class="fas fa-chart-line mr-2"></i>Query Logs & Statistics
+                    </h1>
+                    <a href="/" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg">
+                        <i class="fas fa-arrow-left mr-2"></i>Back to Scraper
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <!-- Statistics Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="flex items-center">
+                        <div class="p-3 rounded-full bg-blue-100 text-blue-600">
+                            <i class="fas fa-search text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-sm font-medium text-gray-600">Total Queries</p>
+                            <p class="text-2xl font-semibold text-gray-900" id="total-queries">-</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="flex items-center">
+                        <div class="p-3 rounded-full bg-green-100 text-green-600">
+                            <i class="fas fa-check text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-sm font-medium text-gray-600">Successful</p>
+                            <p class="text-2xl font-semibold text-gray-900" id="successful-queries">-</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="flex items-center">
+                        <div class="p-3 rounded-full bg-red-100 text-red-600">
+                            <i class="fas fa-times text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-sm font-medium text-gray-600">Failed</p>
+                            <p class="text-2xl font-semibold text-gray-900" id="failed-queries">-</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow p-6">
+                    <div class="flex items-center">
+                        <div class="p-3 rounded-full bg-yellow-100 text-yellow-600">
+                            <i class="fas fa-percentage text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-sm font-medium text-gray-600">Success Rate</p>
+                            <p class="text-2xl font-semibold text-gray-900" id="success-rate">-</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top States -->
+            <div class="bg-white rounded-lg shadow p-6 mb-8">
+                <h2 class="text-lg font-semibold text-gray-900 mb-4">
+                    <i class="fas fa-map-marker-alt mr-2"></i>Most Searched States
+                </h2>
+                <div id="top-states" class="space-y-2">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Recent Logs -->
+            <div class="bg-white rounded-lg shadow">
+                <div class="px-6 py-4 border-b border-gray-200">
+                    <h2 class="text-lg font-semibold text-gray-900">
+                        <i class="fas fa-list mr-2"></i>Recent Query Logs
+                    </h2>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th
+                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Time</th>
+                                <th
+                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    State</th>
+                                <th
+                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    District</th>
+                                <th
+                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Case Number</th>
+                                <th
+                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Status</th>
+                                <th
+                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Error</th>
+                                <th
+                                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                    Raw JSON</th>
+                            </tr>
+                        </thead>
+                        <tbody id="logs-table-body" class="bg-white divide-y divide-gray-200">
+                            <!-- Will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- Modal for displaying raw JSON -->
+    <div id="jsonModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 hidden z-50">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="bg-white rounded-lg shadow-xl max-w-4xl w-full max-h-screen overflow-hidden">
+                <div class="flex justify-between items-center p-6 border-b">
+                    <h3 class="text-lg font-semibold text-gray-900">Raw JSON Response</h3>
+                    <button onclick="closeJsonModal()" class="text-gray-400 hover:text-gray-600">
+                        <i class="fas fa-times text-xl"></i>
+                    </button>
+                </div>
+                <div class="p-6 overflow-auto max-h-96">
+                    <pre id="jsonContent"
+                        class="text-sm text-gray-800 bg-gray-50 p-4 rounded border overflow-x-auto"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class AdminApp {
+            constructor() {
+                this.loadStats();
+                this.loadLogs();
+            }
+
+            async loadStats() {
+                try {
+                    const response = await axios.get('/api/stats');
+                    if (response.data.success) {
+                        const stats = response.data.stats;
+
+                        document.getElementById('total-queries').textContent = stats.total_queries;
+                        document.getElementById('successful-queries').textContent = stats.successful_queries;
+                        document.getElementById('failed-queries').textContent = stats.failed_queries;
+                        document.getElementById('success-rate').textContent = `${stats.success_rate.toFixed(1)}%`;
+
+                        // Populate top states
+                        const topStatesContainer = document.getElementById('top-states');
+                        topStatesContainer.innerHTML = stats.top_states.map((state, index) => `
+                            <div class="flex justify-between items-center py-2">
+                                <span class="font-medium">${index + 1}. ${state[0]}</span>
+                                <span class="text-gray-600">${state[1]} queries</span>
+                            </div>
+                        `).join('');
+                    }
+                } catch (error) {
+                    console.error('Error loading stats:', error);
+                }
+            }
+
+            async loadLogs() {
+                try {
+                    const response = await axios.get('/api/logs?limit=50');
+                    if (response.data.success) {
+                        const logs = response.data.logs;
+                        const tbody = document.getElementById('logs-table-body');
+
+                        // Store JSON data globally for access by onclick
+                        window.jsonData = logs.map(log => log[11]).filter(json => json);
+
+                        tbody.innerHTML = logs.map((log, index) => `
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    ${new Date(log[1]).toLocaleString()}
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    ${log[2] || '-'}
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    ${log[3] || '-'}
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    ${log[6] || '-'}
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full ${log[12] ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
+                            }">
+                                        ${log[12] ? 'Success' : 'Failed'}
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                    ${log[13] || '-'}
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                    ${log[11] ? `<a href="#" onclick="showRawJsonByIndex(${index})" class="text-blue-600 hover:text-blue-800">View JSON</a>` : '-'}
+                                </td>
+                            </tr>
+                        `).join('');
+                    }
+                } catch (error) {
+                    console.error('Error loading logs:', error);
+                }
+            }
+        }
+
+        // Initialize the admin app when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            new AdminApp();
+        });
+
+        // Function to show raw JSON in modal by index
+        function showRawJsonByIndex(index) {
+            if (window.jsonData && window.jsonData[index]) {
+                const jsonString = window.jsonData[index];
+                try {
+                    // Parse and pretty-print the JSON
+                    const jsonObj = JSON.parse(jsonString);
+                    const formattedJson = JSON.stringify(jsonObj, null, 2);
+                    document.getElementById('jsonContent').textContent = formattedJson;
+                    document.getElementById('jsonModal').classList.remove('hidden');
+                } catch (error) {
+                    // If JSON parsing fails, show the raw string
+                    document.getElementById('jsonContent').textContent = jsonString;
+                    document.getElementById('jsonModal').classList.remove('hidden');
+                }
+            }
+        }
+
+        // Function to show raw JSON in modal (legacy function for backward compatibility)
+        function showRawJson(jsonString) {
+            try {
+                // Parse and pretty-print the JSON
+                const jsonObj = JSON.parse(jsonString);
+                const formattedJson = JSON.stringify(jsonObj, null, 2);
+                document.getElementById('jsonContent').textContent = formattedJson;
+                document.getElementById('jsonModal').classList.remove('hidden');
+            } catch (error) {
+                // If JSON parsing fails, show the raw string
+                document.getElementById('jsonContent').textContent = jsonString;
+                document.getElementById('jsonModal').classList.remove('hidden');
+            }
+        }
+
+        // Function to close the JSON modal
+        function closeJsonModal() {
+            document.getElementById('jsonModal').classList.add('hidden');
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('jsonModal').addEventListener('click', function (e) {
+            if (e.target === this) {
+                closeJsonModal();
+            }
+        });
+    </script>
+</body>
+
+</html>
