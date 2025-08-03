@@ -31,9 +31,6 @@ A modern web interface for searching and retrieving case details from the ECourt
    ```bash
    # Get a Google Gemini API key from https://makersuite.google.com/app/apikey
    export GOOGLE_GEMINI_API_KEY='your-api-key-here'
-   
-   # Test the CAPTCHA solver
-   python test_captcha_solver.py
    ```
    
    **Note**: The CAPTCHA auto-solving feature uses Google's Gemini Vision API to automatically read and solve CAPTCHA images. While this feature can significantly improve user experience, it may not be 100% accurate. Users are always encouraged to verify the auto-filled text before proceeding.
